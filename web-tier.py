@@ -7,8 +7,8 @@ import json
 app = Flask(__name__)
 
 # Define your AWS credentials and region
-AWS_ACCESS_KEY_ID = ""
-AWS_SECRET_ACCESS_KEY = ""
+AWS_ACCESS_KEY_ID = "AWS_ACCESS_KEY_ID"
+AWS_SECRET_ACCESS_KEY = "AWS_SECRET_ACCESS_KEY"
 AWS_REGION = "us-east-1"
 
 # Define SQS queue URLs for request and response queues
